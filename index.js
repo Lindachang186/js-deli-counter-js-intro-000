@@ -2,8 +2,8 @@ var katzDeli = [];
 var next = 0
 
 function takeANumber(katzDeliLine) {
-  katzDeliLine.push(next);
-  return (`You are number ${++next}.`)
+  ;
+  return (`You are number ${katzDeliLine.push(++next)}.`)
 }
 
 console.log(takeANumber(katzDeli, next))
