@@ -3,7 +3,7 @@ var next = 0
 
 function takeANumber(katzDeliLine, number) {
   katzDeliLine.push(number);
-  return (`You are number ${number + 1}.`)
+  return (`You are number ${number++}.`)
 }
 
 console.log(takeANumber(katzDeli, next))
