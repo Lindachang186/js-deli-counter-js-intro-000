@@ -9,6 +9,8 @@ function takeANumber(katzDeliLine) {
 console.log(takeANumber(katzDeli, next))
 console.log(takeANumber(katzDeli, next))
 console.log(takeANumber(katzDeli, next))
+console.log(katzDeli)
+
 
 function nowServing(katzDeliLine){
   if(katzDeliLine.length > 0) {
